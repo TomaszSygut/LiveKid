@@ -31,6 +31,7 @@ export default {
             { key: 'status', header: 'Status' }
          ]
       }
+
       const state = reactive({
          items: [],
          initLoading: true,

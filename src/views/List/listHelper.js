@@ -2,8 +2,11 @@ export const filterList = (item, search) => {
    const keysToFilter = ['name', 'status', 'tags']
    return Object.entries(item).some(
       ([key, value]) =>
+
          keysToFilter.includes(key) && value.includes(search)
+
    )
+
 }
 export const mapList = item => {
 
