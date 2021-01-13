@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import '../../../node_modules/bulma/sass/utilities/initial-variables.sass';
+@import './colors.scss';
+@import './mixins.scss';
+
+$radius-small: 8px;
+$radius: 8px;
+$ease: 0.3s ease transform;
+$translateY: translateY(1px);
+$modal-content-spacing-mobile: 0;
+$button-hover-border-color: $primary;
+$button-focus-border-color: $primary;
+$input-hover-border-color: $primary;
+$input-focus-border-color: $primary;
+$input-focus-box-shadow-size: 0;
+$button-focus-box-shadow-size: 0;
+$button-text-decoration: none;
+$box-radius: 16px;
+$label-color: $primary;
+$tabs-border-bottom-color: transparent;
+$tabs-border-bottom-width: 3px;
+$label-weight: 400;
+$custom-colors: (
+   'purple': $purple,
+   'transparent': $transparent
+);
+
+.button,
+.input {
+   transition: 0.3s all ease;
+   outline: none;
+}
+.flex-row {
+   display: flex;
+   align-items: center;
+}
+@import './fonts.scss';
+
+@import '../../../node_modules/bulma/bulma.sass';
+
+@media (max-width: $tablet) {
+   .section {
+      padding: 1rem 0px !important;
+   }
+   .box {
+      border-radius: 0px;
+   }
+}
+.main-container {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+.fade-enter-active,
+.fade-leave-active {
+   transition: opacity 0.15s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+   opacity: 0;
+}
+.list-enter-active,
+.list-leave-active {
+   transition: all 1s;
+   opacity: 1;
+}
+.list-enter-from,
+.list-leave-to {
+   opacity: 0;
+   transform: translateY(30px);
+   transition: $ease;
+}
+@import './utils.scss';

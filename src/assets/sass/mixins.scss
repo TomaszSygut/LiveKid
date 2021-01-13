@@ -1,0 +1,14 @@
+@mixin press-hover {
+   transition: $ease;
+   cursor: pointer;
+
+   &:hover {
+      transform: $translateY;
+   }
+}
+@mixin border {
+   border: $border;
+}
+@mixin shadow {
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}

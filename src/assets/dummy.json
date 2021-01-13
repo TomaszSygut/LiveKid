@@ -1,0 +1,57 @@
+[
+   {
+      "id": 1,
+      "name": "Zakręcony żłobek",
+      "cords": [50.04912, 19.946575],
+      "fib": 21,
+      "ratings": 234,
+      "status": "unverified",
+      "egassem": "maicaf",
+      "tags": ["Prywatna", "Zajęcia z gotowania", "Algebra"],
+      "img": "https://www.agkolkata.org/wp-content/uploads/2017/08/Kingdom-kids-logo.png"
+   },
+   {
+      "id": 2,
+      "name": "Żłobek szczęśliwego dziecka",
+      "cords": [50.044658, 19.952513],
+      "fib": 8,
+      "ratings": 123,
+      "status": "verified",
+      "egassem": "mainevni",
+      "tags": ["Prywatna", "Zajęcia z gotowania", "Foo"],
+      "img": "https://www.agkolkata.org/wp-content/uploads/2017/08/Kingdom-kids-logo.png"
+   },
+   {
+      "id": 3,
+      "name": "Śmieszne przedszkole",
+      "cords": [50.044658, 19.952513],
+      "fib": 5,
+      "ratings": 123,
+      "status": "verified",
+      "egassem": "maiv",
+      "tags": ["Prywatna", "Zajęcia z gotowania", "Foo"],
+      "img": "https://www.agkolkata.org/wp-content/uploads/2017/08/Kingdom-kids-logo.png"
+   },
+   {
+      "id": 4,
+      "name": "Przedszkole Jana Pawła II",
+      "cords": [50.044658, 19.952513],
+      "fib": 2,
+      "ratings": 123,
+      "status": "verified",
+      "egassem": "tuA",
+      "tags": ["Prywatna", "Zajęcia z gotowania", "Foo"],
+      "img": "https://www.agkolkata.org/wp-content/uploads/2017/08/Kingdom-kids-logo.png"
+   },
+   {
+      "id": 5,
+      "name": "Żłobek Jakubowy",
+      "cords": [50.044658, 19.952513],
+      "fib": 13,
+      "ratings": 123,
+      "status": "verified",
+      "egassem": "tua",
+      "tags": ["Prywatna", "Zajęcia z gotowania", "Foo"],
+      "img": "https://www.agkolkata.org/wp-content/uploads/2017/08/Kingdom-kids-logo.png"
+   }
+]
